@@ -1,0 +1,116 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #F5F7FA;   
+}
+.container {
+    margin: 40px auto;
+    display: flex;
+    flex-direction: row-reverse;
+    background-color: #FFFFFF;
+    width: 1200px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.sidebar {
+    background-color: #1E2939;
+    max-width: 370px;
+    width: 100%;
+    margin-left: 0;
+}
+.photo{
+    margin: 40px 35px 0 35px;
+}
+.sidebar-content {
+    margin: 40px;
+    color: #FFFFFF;
+}
+.contacts, .tech-skill {
+    margin-bottom: 40px;
+}
+.sidebar-title {
+    font-size: 22px;
+    font-weight: 700;
+}
+.contact-height {
+    line-height: 24px;
+}
+.fs {
+    font-size: 14px;
+    font-weight: 400;
+    color: #FFFFFF;
+    padding: 0;
+}
+.none{
+    text-decoration: none;
+}
+.contact-link {
+    color: #8E949C;
+    margin: 0;
+}
+.contact-height p {
+    margin: 0;
+}
+.sidebar ul {
+    list-style: none
+}
+.sidebar ul li::before {
+    content: "•";
+    color: #FB6D3A;
+    padding-right: 10px;
+    line-height: 24px;
+}
+.content{
+    margin: 80px 100px;
+    width: 100%;
+}
+.about{
+    max-width: 500px;
+}
+.fs-1{
+    font-size: 45px;
+    font-weight: 700;
+}
+.projects ol {
+    padding: 0;
+    margin-left: 4%;
+    font-size: 14px;
+    line-height: 24px;
+}
+.text-grey{
+   color: #595959;
+   text-decoration: none;
+}
+.bolt{
+    font-weight: 700;
+    color: black;
+}
+.fs-2 {
+    font-size: 14px;
+    font-weight: 700;
+}
+.work-block{
+    margin-bottom: 30px;
+}
+.col-oran{
+    color: #FB6D3A;
+}
+.fs-col {
+    font-size: 12px;
+    color: grey;
+}
+p .col-bl {
+    color: black;
+    padding: 0 1%;
+}
+.fs-p {
+    font-size: 14px;
+    font-weight: 400;
+    color: #595959;
+    line-height: 24px;
+    padding-left: 14px;
+}
+.fs-3 {
+    font-size: 22px;
+    font-weight: 700;
+}
